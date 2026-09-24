@@ -4,7 +4,21 @@
         <fullName>Test_Label</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Test Label</shortDescription>
+        <shortDescription>Test Label2</shortDescription>
         <value>Test Label</value>
+    </labels>
+    <labels>
+        <fullName>Test_Label3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test Label32</shortDescription>
+        <value>Test Label3</value>
+    </labels>
+    <labels>
+        <fullName>Test_label2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test label22</shortDescription>
+        <value>Test label2</value>
     </labels>
 </CustomLabels>
