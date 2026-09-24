@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActiveCustomerRevenue</fullName>
+    <active>true</active>
+    <description>Require Annual Revenue for Active Customers</description>
+    <errorConditionFormula>
+        AND(
+            Active_Customer__c = TRUE,
+            ISBLANK(AnnualRevenue)
+        )
+    </errorConditionFormula>
+    <errorMessage>Annual Revenue is required for Active Customers.</errorMessage>
+</ValidationRule>
