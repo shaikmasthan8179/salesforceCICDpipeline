@@ -18,13 +18,13 @@ name: Salesforce Delta Pipeline
 on:
   push:
     branches:
-      - develop
+      - dev
       - sit
       - uat
       - main
   pull_request:
     branches:
-      - develop
+      - dev
       - sit
       - uat
       - main
