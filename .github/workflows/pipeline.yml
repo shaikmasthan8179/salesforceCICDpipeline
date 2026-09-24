@@ -110,7 +110,6 @@ jobs:
           else
             echo "No Salesforce metadata changes found. Skipping validation."
           fi
-
       - name: Deploy Delta to ${{ env.ENV_NAME }}
         if: github.event_name == 'push'
         run: |
@@ -123,7 +122,6 @@ jobs:
           else
             echo "No Salesforce metadata changes found. Skipping deployment."
           fi
-
       - name: Deploy Destructive Changes
         if: github.event_name == 'push'
         run: |
